@@ -58,10 +58,10 @@ const FileUploader: React.FC<FileUploaderProps> = ({
       formData.append("content", content); // Append the content
 
       await axios
-        .post(`https://${process.env.REACT_APP_PUBLIC_IP!}/minutes_maker`, formData)
+        .post(`http://${process.env.REACT_APP_PUBLIC_IP!}:10355/minutes_maker`, formData)
         .then((response) => {
           setApiResponse(response.data); // Store the API response in state
-        }) 
+        })
         .catch((error) => {
           console.log(error);
         });
