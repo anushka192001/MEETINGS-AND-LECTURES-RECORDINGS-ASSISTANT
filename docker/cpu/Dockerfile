@@ -9,7 +9,6 @@ WORKDIR /app
 COPY . .
 
 RUN cd view/minutes-maker \
-    && cp /app/.env . \
     && npm install \
     && npm run build
 
