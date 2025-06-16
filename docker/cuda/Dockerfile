@@ -10,6 +10,7 @@ COPY . .
 
 # install react dependencies and build
 RUN cd view/minutes-maker \
+    && cp /app/.env . \
     && npm install \
     && npm run build
 

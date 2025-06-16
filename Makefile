@@ -14,6 +14,7 @@ build:
 	cp requirements.lock docker/$$ARCH && \
 	cp pyproject.toml docker/$$ARCH && \
 	cp README.md docker/$$ARCH && \
+	cp .env docker/$$ARCH && \
 	cd docker/$$ARCH && \
 	docker-compose build --no-cache;
 
@@ -32,6 +33,7 @@ up:
 		rm -rf docker/$$ARCH/requirements.lock; \
 		rm -rf docker/$$ARCH/pyproject.toml; \
 		rm -rf docker/$$ARCH/README.md; \
+		rm -rf docker/$$ARCH/.env; \
 	fi && \
 	cd docker/$$ARCH && docker-compose up;
 

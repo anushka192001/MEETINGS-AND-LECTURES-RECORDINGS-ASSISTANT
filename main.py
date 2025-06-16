@@ -63,12 +63,6 @@ class MinutesMakerAPI:
             self.query_handler,
             methods=["POST"],
         )
-        
-        self.app.add_api_route(
-            "/health",
-            lambda: {"status": "ok"},
-            methods=["GET"],
-        )
 
         self.app.add_api_route(
             "/minutes_maker",
@@ -76,10 +70,6 @@ class MinutesMakerAPI:
             methods=["POST"],
             response_model=OutputData,
         )
-        
-        
-        
-        
         self.app.add_middleware(
             CORSMiddleware,
             allow_origins=["*"],
