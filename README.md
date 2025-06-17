@@ -11,7 +11,7 @@
 
 Key features:
 
-- **Transcribe almost any audio/video file** with  [faster-whisper](https://github.com/guillaumekln/faster-whisper)
+- **Transcribe almost any audio/video file** with  [assembly-ai](https://www.assemblyai.com/)
 - **Summarize transcripts** using [OpenAI LLMs](https://openai.com/blog/openai-api/)
 - **Easy-to-use web interface**
 - Support for **English and Japanese**
