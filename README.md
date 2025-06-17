@@ -2,7 +2,7 @@
 **MEETINGS AND LECTURES RECORDINGS ASSISTANT is a web app that automatically generates transcripts and summaries of meetings or lectures and answer your questions also regarding the recordings.**
 
 <h1 align="center">
-  <img src="./assets/7da2406c-dae4-4ba0-9857-862b31101340.mp4" width=100%>
+  <img src="https://youtu.be/4Jljf9uUcn0" width=100%>
 </h1>
 
 
