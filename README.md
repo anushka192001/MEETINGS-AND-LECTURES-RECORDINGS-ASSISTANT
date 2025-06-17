@@ -1,5 +1,5 @@
 # MEETINGS AND LECTURES RECORDINGS ASSISTANT
-**MEETINGS AND LECTURES RECORDINGS ASSISTANT is a web app that automatically generates transcripts and summaries of meetings or lectures and answer your questions also regarding the recordings.**
+**MEETINGS AND LECTURES RECORDINGS ASSISTANT is a web app that automatically generates transcripts and summaries of meetings or lectures and answer your questions also regarding the recordings as a chatbot.**
 
 <h1 align="center">
   <img src="./assets/final-rec-final.gif" width=100%>
@@ -69,7 +69,7 @@ _Just fill the form and click the **Submit** button!_
 
     Select the target language to be summarized. **Note that the language of the audio/video file is automatically detected and cannot be changed**, so you should select _what language you want to summarize_.
 
-    Currently, English and Japanese are supported.
+    Currently, English, Japanese, Spanish, French, German, Chinese, Hindi,Arabic,Russian,Portuguese, Korean, Italian,Turkish, Bengali, Urdu   are supported.
 
 3. **Select category**
 
@@ -81,8 +81,6 @@ _Just fill the form and click the **Submit** button!_
     Set appropriate topic to improve the quality of the transcript.
 
 ## Requirements
-
-- Computer
 - Docker
 
 ## License
