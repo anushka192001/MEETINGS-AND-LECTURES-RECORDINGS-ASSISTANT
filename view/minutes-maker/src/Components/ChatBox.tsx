@@ -25,8 +25,8 @@ export const ChatBox: React.FC = () => {
 
   const handleSend = async (text: string) => {
     setMessages(prev => [...prev, { content: text, sender: "user" }]);
-    setInput("");
-    const res = await fetch("/query", {
+    setInput(""); 
+    const res = await fetch("https://${process.env.REACT_APP_PUBLIC_IP!}/query", {
       method: "POST",
       body: new URLSearchParams({ question: text }),
     });
