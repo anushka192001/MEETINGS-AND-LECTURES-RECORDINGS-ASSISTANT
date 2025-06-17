@@ -57,10 +57,6 @@ Open `http://<PUBLIC_IP or 0.0.0.0>:10356` in your browser.
 
 ## Usage
 
-<p align="center">
-  <img src="./assets/sample.png" width=50%>
-</p>
-
 _Just fill the form and click the **Submit** button!_
 
 **Here is a brief explanation of the form:**
