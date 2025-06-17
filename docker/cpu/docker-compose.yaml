@@ -12,16 +12,3 @@ services:
     ports:
       - 10355:10355
     command: python3.11 main.py
-
-  view:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      target: frontend
-    image: docker_view:latest
-    volumes:
-      - ../../default.conf:/etc/nginx/conf.d/default.conf
-      - ../../.env:/app/.env
-    ports:
-      - 10356:80
-    command: /bin/bash -c "nginx -g 'daemon off;'"

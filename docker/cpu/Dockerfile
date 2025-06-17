@@ -33,9 +33,4 @@ RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python3 \
     && python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel \
     && python3 -m pip install --no-cache-dir -r requirements.lock
 
-# Third stage: Nginx for static files
-FROM nginx:latest as frontend
 
-ENV DEBIAN_FRONTEND=noninteractive
-
-COPY --from=builder /app/view/minutes-maker/build /usr/share/nginx/html
