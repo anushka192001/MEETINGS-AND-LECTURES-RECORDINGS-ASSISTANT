@@ -18,6 +18,7 @@ Key features:
 - **Easy-to-use web interface**
 - Support for **English, Japanese, English, Japanese, Spanish, French, German, Chinese, Hindi,Arabic,Russian,Portuguese, Korean, Italian,Turkish, Bengali and Urdu**
 - Compatible with both **CPU and GPU**
+- can handle multiple parallel requests using load balancing.
 
 ## Installation
 
