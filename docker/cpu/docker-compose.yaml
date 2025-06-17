@@ -7,8 +7,6 @@ services:
       dockerfile: Dockerfile
       target: backend
     image: docker_api:latest
-    volumes:
-      - ../../.env:/app/.env
     ports:
       - 10355:10355
     command: python3.11 main.py
