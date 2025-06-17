@@ -11,10 +11,10 @@
 
 Key features:
 
-- **Transcribe almost any audio/video file** with  [assembly-ai](https://www.assemblyai.com/)
+- **Transcribe almost any audio/video file**
 - **Summarize transcripts** using [OpenAI LLMs](https://openai.com/blog/openai-api/)
 - **Easy-to-use web interface**
-- Support for **English and Japanese**
+- Support for **English, Japanese, English, Japanese, Spanish, French, German, Chinese, Hindi,Arabic,Russian,Portuguese, Korean, Italian,Turkish, Bengali and Urdu**
 - Compatible with both **CPU and GPU**
 
 ## Installation
